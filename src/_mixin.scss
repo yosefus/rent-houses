@@ -1,0 +1,11 @@
+
+@mixin alert($color: red){
+   background-color: $color;
+   box-shadow: 20px 20px 20px 0 rgba($color: $color, $alpha: 0.4);
+   color: white;
+
+   &:hover{
+      // background-color: lighten($color: $color, $amount: 10%);
+      filter: brightness(1.1);
+   }
+}

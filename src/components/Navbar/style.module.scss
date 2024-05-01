@@ -1,0 +1,30 @@
+@import '../../vars.scss';
+@import '../../mixin.scss';
+
+.header {
+   // background-color: $bgColor;
+   // color: #fff;
+   height: 50px;
+   justify-content: space-between;
+   padding: 0 3rem;
+   
+   @extend .f-c;
+   @include alert(#262626);
+
+   &>nav {
+      display: flex;
+      gap: 1rem;
+
+      a {
+         color: #fff;
+         text-decoration: none;
+
+         
+         &.active {}
+      }
+   }
+   
+   @media (width < 600px) {
+      background-color: gold;
+   }
+}
