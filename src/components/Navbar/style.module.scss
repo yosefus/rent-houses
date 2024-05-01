@@ -2,58 +2,84 @@
 @import '../../mixin.scss';
 
 .header {
-   background-color: $bgColor;
    height: 50px;
    display: flex;
    align-items: center;
    justify-content: space-between;
    padding: 0 3rem;
 
-   .btns{
-      display: flex;
+   .btnsPc {
+      display: none;
       gap: 1rem;
 
-      button{
-         
+      button {
          display: flex;
          align-items: center;
+         color: inherit;
 
-         svg{
+         svg {
             font-size: 1.2rem;
-            // animation-name:  rotate-animation;
-            // animation-duration: 3s;
-            // animation-timing-function: ease-in-out;
-            // animation-iteration-count: infinite;
-
-            // animation: rotate-animation 3s linear infinite ;
+            color: inherit;
          }
 
-         &:nth-child(1){
-            border: 1px solid #222222;
+         &:nth-child(1) {
+            border: 1px solid $txtColor;
             border-radius: 40px;
             padding: .5rem 1rem;
          }
-         &:nth-child(2){
+      }
+   }
 
+   .btnsMobile {
+      display: flex;
+      gap: 1rem;
+
+      button {
+         display: flex;
+         align-items: center;
+         color: inherit;
+
+         svg {
+            font-size: 1.2rem;
+            color: inherit;
          }
+
+         &:nth-child(1) {
+            border: 1px solid $txtColor;
+            border-radius: 40px;
+            padding: .5rem 1rem;
+         }
+
+      }
+
+   }
+
+   @media (width > 600px) {
+      .btnsMobile {
+         display: none;
+      }
+
+      .btnsPc {
+         display: flex;
       }
    }
 }
 
+
 @keyframes rotate-animation {
-   0%{
+   0% {
       rotate: 0deg;
    }
 
-   20%{
+   20% {
       translate: 0 0;
    }
 
-   80%{
+   80% {
       translate: 50px -50px;
    }
 
-   100%{
+   100% {
       rotate: 360deg;
    }
 }

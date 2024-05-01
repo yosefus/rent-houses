@@ -1,0 +1,17 @@
+{
+   "he": {
+      "dark": "שחור",
+      "login": "התחברות",
+      "logout": "התנתקות"
+   },
+   "en": {
+      "dark": "Dark",
+      "login": "Login",
+      "logout": "Logout"
+   },
+   "jp":{
+      "dark": "ダーク",
+      "login": "ログイン",
+      "logout": "ログアウト"
+   }
+}
