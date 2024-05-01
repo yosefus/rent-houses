@@ -1,16 +1,16 @@
 import styles from './style.module.scss'
+import { IoMdMenu } from "react-icons/io";
+import { GrLanguage } from "react-icons/gr";
+
 
 export default function Navbar() {
-  return (
-     <header className={`${styles.header}`}
-      //   style={{ '--bc': 'red' }}
-     >
-        <div className={styles.logo}>logo</div>
-        <nav>
-           <a href="#">home</a>
-           <a href="#">about</a>
-           <a href="#">contact</a>
-        </nav>
-    </header>
-  )
+   return (
+      <header className={`${styles.header}`}>
+         <div className={styles.btns}>
+            <button><IoMdMenu /></button>
+            <button><GrLanguage /></button>
+         </div>
+         <div className={styles.logo}><img src="vite.svg" alt="logo" /></div>
+      </header>
+   )
 }

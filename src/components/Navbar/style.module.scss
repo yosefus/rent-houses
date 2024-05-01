@@ -2,29 +2,58 @@
 @import '../../mixin.scss';
 
 .header {
-   // background-color: $bgColor;
-   // color: #fff;
+   background-color: $bgColor;
    height: 50px;
+   display: flex;
+   align-items: center;
    justify-content: space-between;
    padding: 0 3rem;
-   
-   @extend .f-c;
-   @include alert(#262626);
 
-   &>nav {
+   .btns{
       display: flex;
       gap: 1rem;
 
-      a {
-         color: #fff;
-         text-decoration: none;
-
+      button{
          
-         &.active {}
+         display: flex;
+         align-items: center;
+
+         svg{
+            font-size: 1.2rem;
+            // animation-name:  rotate-animation;
+            // animation-duration: 3s;
+            // animation-timing-function: ease-in-out;
+            // animation-iteration-count: infinite;
+
+            // animation: rotate-animation 3s linear infinite ;
+         }
+
+         &:nth-child(1){
+            border: 1px solid #222222;
+            border-radius: 40px;
+            padding: .5rem 1rem;
+         }
+         &:nth-child(2){
+
+         }
       }
    }
-   
-   @media (width < 600px) {
-      background-color: gold;
+}
+
+@keyframes rotate-animation {
+   0%{
+      rotate: 0deg;
+   }
+
+   20%{
+      translate: 0 0;
+   }
+
+   80%{
+      translate: 50px -50px;
+   }
+
+   100%{
+      rotate: 360deg;
    }
 }

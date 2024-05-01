@@ -1,8 +1,10 @@
 :root{
-   --bc: #262626;
+   --bc: #fff;
+   --mc: pink;
 }
 
 $bgColor: var(--bc);
+$mainColor: var(--mc);
 
 
 .f-c{

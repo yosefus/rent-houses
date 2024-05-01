@@ -1,0 +1,212 @@
+[
+   {
+      "id": 1,
+      "title": "Cozy Beachfront Cottage",
+      "titleTranslations": {
+         "en": "Cozy Beachfront Cottage",
+         "he": "צימר חוף ונעים"
+      },
+      "location": "Santa Monica, CA, USA",
+      "locationTranslations": {
+         "en": "Santa Monica, CA, USA",
+         "he": "סנטה מוניקה, קליפורניה, ארה\"ב"
+      },
+      "price": 120,
+      "rating": 4.8,
+      "reviewCount": 247,
+      "images": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-549210539001854746/original/91024f9e-6497-4c36-80e1-d859cab61034.jpeg?im_w=320"
+      ],
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "guests": 4,
+      "amenities": [
+         "Wifi",
+         "Air conditioning",
+         "Kitchen",
+         "Parking"
+      ],
+      "amenitiesTranslations": {
+         "en": {
+            "Wifi": "Wifi",
+            "Air conditioning": "Air conditioning",
+            "Kitchen": "Kitchen",
+            "Parking": "Parking"
+         },
+         "he": {
+            "Wifi": "ווייפיי",
+            "Air conditioning": "מזגן",
+            "Kitchen": "מטבח",
+            "Parking": "חניה"
+         }
+      }
+   },
+   {
+      "id": 2,
+      "title": "Modern Loft in the City Center",
+      "titleTranslations": {
+         "en": "Modern Loft in the City Center",
+         "he": "לופט מודרני במרכז העיר"
+      },
+      "location": "New York, NY, USA",
+      "locationTranslations": {
+         "en": "New York, NY, USA",
+         "he": "ניו יורק, ניו יורק, ארה\"ב"
+      },
+      "price": 180,
+      "rating": 4.6,
+      "reviewCount": 394,
+      "images": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-845582894512706342/original/89db0727-e850-4282-840f-106ec7020a7f.jpeg?im_w=320"
+      ],
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "guests": 2,
+      "amenities": [
+         "Wifi",
+         "Gym",
+         "Pool",
+         "Elevator"
+      ],
+      "amenitiesTranslations": {
+         "en": {
+            "Wifi": "Wifi",
+            "Gym": "Gym",
+            "Pool": "Pool",
+            "Elevator": "Elevator"
+         },
+         "he": {
+            "Wifi": "ווייפיי",
+            "Gym": "חדר כושר",
+            "Pool": "בריכה",
+            "Elevator": "מעלית"
+         }
+      }
+   },
+   {
+      "id": 3,
+      "title": "Rustic Farmhouse in the Countryside",
+      "titleTranslations": {
+         "en": "Rustic Farmhouse in the Countryside",
+         "he": "בית כפרי רוסטי בכפר"
+      },
+      "location": "Tuscany, Italy",
+      "locationTranslations": {
+         "en": "Tuscany, Italy",
+         "he": "טוסקנה, איטליה"
+      },
+      "price": 150,
+      "rating": 4.9,
+      "reviewCount": 127,
+      "images": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-925189861664254671/original/cf57424e-b5ad-4fbf-9ebf-17d2f7da70d7.jpeg?im_w=320"
+      ],
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "guests": 6,
+      "amenities": [
+         "Wifi",
+         "Kitchen",
+         "Fireplace",
+         "Backyard"
+      ],
+      "amenitiesTranslations": {
+         "en": {
+            "Wifi": "Wifi",
+            "Kitchen": "Kitchen",
+            "Fireplace": "Fireplace",
+            "Backyard": "Backyard"
+         },
+         "he": {
+            "Wifi": "ווייפיי",
+            "Kitchen": "מטבח",
+            "Fireplace": "ארובה",
+            "Backyard": "חצר אחורית"
+         }
+      }
+   },
+   {
+      "id": 4,
+      "title": "Luxury Villa with Private Pool",
+      "titleTranslations": {
+         "en": "Luxury Villa with Private Pool",
+         "he": "וילה מפנקת עם בריכה פרטית"
+      },
+      "location": "Bali, Indonesia",
+      "locationTranslations": {
+         "en": "Bali, Indonesia",
+         "he": "באלי, אינדונזיה"
+      },
+      "price": 280,
+      "rating": 4.7,
+      "reviewCount": 68,
+      "images": [
+         "https://a0.muscache.com/im/pictures/hosting/Hosting-1017643263576907796/original/fb453701-96f5-4678-b3eb-7a143c079b8c.jpeg?im_w=320"
+      ],
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "guests": 8,
+      "amenities": [
+         "Wifi",
+         "Air conditioning",
+         "Private pool",
+         "Outdoor kitchen"
+      ],
+      "amenitiesTranslations": {
+         "en": {
+            "Wifi": "Wifi",
+            "Air conditioning": "Air conditioning",
+            "Private pool": "Private pool",
+            "Outdoor kitchen": "Outdoor kitchen"
+         },
+         "he": {
+            "Wifi": "ווייפיי",
+            "Air conditioning": "מזגן",
+            "Private pool": "בריכה פרטית",
+            "Outdoor kitchen": "מטבח חיצוני"
+         }
+      }
+   },
+   {
+      "id": 5,
+      "title": "Chic Apartment in the Heart of Paris",
+      "titleTranslations": {
+         "en": "Chic Apartment in the Heart of Paris",
+         "he": "דירה שיקית בלב פריז"
+      },
+      "location": "Paris, France",
+      "locationTranslations": {
+         "en": "Paris, France",
+         "he": "פריז, צרפת"
+      },
+      "price": 220,
+      "rating": 4.5,
+      "reviewCount": 312,
+      "images": [
+         "https://a0.muscache.com/im/pictures/miso/Hosting-752198677283896253/original/83415e58-9b52-46ee-9a5b-231ba71ba671.jpeg?im_w=320"
+      ],
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "guests": 4,
+      "amenities": [
+         "Wifi",
+         "Elevator",
+         "Balcony",
+         "Washer/Dryer"
+      ],
+      "amenitiesTranslations": {
+         "en": {
+            "Wifi": "Wifi",
+            "Elevator": "Elevator",
+            "Balcony": "Balcony",
+            "Washer/Dryer": "Washer/Dryer"
+         },
+         "he": {
+            "Wifi": "ווייפיי",
+            "Elevator": "מעלית",
+            "Balcony": "מרפסת",
+            "Washer/Dryer": "מכונת כביסה/מייבש"
+         }
+      }
+   }
+]
